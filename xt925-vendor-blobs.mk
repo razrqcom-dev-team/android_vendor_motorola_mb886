@@ -30,7 +30,8 @@ LOCAL_PATH := vendor/motorola/xt925
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/xt925/proprietary/etc/OperatorPolicy.xml:system/etc/OperatorPolicy.xml \
-    vendor/motorola/xt925/proprietary/etc/UserPolicy.xml:system/etc/UserPolicy.xml
+    vendor/motorola/xt925/proprietary/etc/UserPolicy.xml:system/etc/UserPolicy.xml \
+    vendor/motorola/xt925/proprietary/etc/firmware/melfas_45_7_15.fw:system/etc/firmware/melfas_45_7_15.fw
 PRODUCT_COPY_FILES += \
     vendor/motorola/xt925/proprietary/bin/ap_gain.bin:system/bin/ap_gain.bin \
     vendor/motorola/xt925/proprietary/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin \
@@ -204,7 +205,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt925/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/motorola/xt925/proprietary/lib/libcurl.so:system/lib/libcurl.so \
     vendor/motorola/xt925/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
-    vendor/motorola/xt925/proprietary/etc/firmware/melfas_45_7_15.fw:system/etc/firmware/melfas_45_7_15.fw \
     vendor/motorola/xt925/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/motorola/xt925/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/motorola/xt925/proprietary/lib/libsensorhub_jni.so:system/lib/libsensorhub_jni.so \
