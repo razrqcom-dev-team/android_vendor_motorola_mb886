@@ -86,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt925/proprietary/etc/wifi/hostapd_default.conf:system/etc/wifi/hostapd_default.conf \
     vendor/motorola/xt925/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/motorola/xt925/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-    vendor/motorola/xt925/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
     vendor/motorola/xt925/proprietary/lib/hw/sensorhub.msm8960.so:system/lib/hw/sensorhub.msm8960.so \
     vendor/motorola/xt925/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/motorola/xt925/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
