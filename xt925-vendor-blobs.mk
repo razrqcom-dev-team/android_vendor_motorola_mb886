@@ -85,7 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt925/proprietary/etc/thermald.conf:system/etc/thermald.conf \
     vendor/motorola/xt925/proprietary/etc/wifi/hostapd_default.conf:system/etc/wifi/hostapd_default.conf \
     vendor/motorola/xt925/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    vendor/motorola/xt925/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/motorola/xt925/proprietary/lib/hw/sensorhub.msm8960.so:system/lib/hw/sensorhub.msm8960.so \
     vendor/motorola/xt925/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/motorola/xt925/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
@@ -105,6 +104,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt925/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/motorola/xt925/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/motorola/xt925/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
+    vendor/motorola/xt925/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/motorola/xt925/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/motorola/xt925/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
     vendor/motorola/xt925/proprietary/lib/libdss.so:system/lib/libdss.so \
@@ -159,6 +159,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt925/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/motorola/xt925/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/motorola/xt925/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
+    vendor/motorola/xt925/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/motorola/xt925/proprietary/lib/libquipc_os_api.so:system/lib/libquipc_os_api.so \
     vendor/motorola/xt925/proprietary/lib/libquipc_ulp_adapter.so:system/lib/libquipc_ulp_adapter.so \
     vendor/motorola/xt925/proprietary/lib/libQWiFiSoftApCfg.so:system/lib/libQWiFiSoftApCfg.so \
@@ -197,7 +198,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt925/proprietary/lib/libmmwfdinterface.so:system/lib/libmmwfdinterface.so \
     vendor/motorola/xt925/proprietary/lib/libmmwfdsinkinterface.so:system/lib/libmmwfdsinkinterface.so \
     vendor/motorola/xt925/proprietary/lib/libmmwfdsrcinterface.so:system/lib/libmmwfdsrcinterface.so \
-    vendor/motorola/xt925/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/motorola/xt925/proprietary/lib/libdataencrypt_openssl.so:system/lib/libdataencrypt_openssl.so \
     vendor/motorola/xt925/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/motorola/xt925/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
