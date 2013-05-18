@@ -84,7 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mb886/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
     vendor/motorola/mb886/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/motorola/mb886/proprietary/lib/libbt-aptx-4.0.4.so:system/lib/libbt-aptx-4.0.4.so \
-    vendor/motorola/mb886/proprietary/lib/libcaps.so:system/lib/libcaps.so \
     vendor/motorola/mb886/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
     vendor/motorola/mb886/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/motorola/mb886/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
@@ -132,8 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mb886/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
     vendor/motorola/mb886/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/motorola/mb886/proprietary/lib/libopenssl-smime.so:system/lib/libopenssl-smime.so \
-    vendor/motorola/mb886/proprietary/lib/libpanorama_jni.so:system/lib/libpanorama_jni.so \
-    vendor/motorola/mb886/proprietary/lib/libpanorama.so:system/lib/libpanorama.so \
     vendor/motorola/mb886/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/motorola/mb886/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/motorola/mb886/proprietary/lib/libqdp.so:system/lib/libqdp.so \
