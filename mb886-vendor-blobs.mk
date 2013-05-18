@@ -106,7 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mb886/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/motorola/mb886/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/motorola/mb886/proprietary/lib/libimssettings.so:system/lib/libimssettings.so \
-    vendor/motorola/mb886/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
     vendor/motorola/mb886/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/motorola/mb886/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/motorola/mb886/proprietary/lib/libmm-audio-resampler.so:system/lib/libmm-audio-resampler.so \
