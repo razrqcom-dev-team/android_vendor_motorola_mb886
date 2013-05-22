@@ -123,10 +123,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mb886/proprietary/lib/libnative_renderer.so:system/lib/libnative_renderer.so \
     vendor/motorola/mb886/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/motorola/mb886/proprietary/lib/libNimsWrap.so:system/lib/libNimsWrap.so \
-    vendor/motorola/mb886/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/motorola/mb886/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
     vendor/motorola/mb886/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
-    vendor/motorola/mb886/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/motorola/mb886/proprietary/lib/libopenssl-smime.so:system/lib/libopenssl-smime.so \
     vendor/motorola/mb886/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/motorola/mb886/proprietary/lib/libqdi.so:system/lib/libqdi.so \
