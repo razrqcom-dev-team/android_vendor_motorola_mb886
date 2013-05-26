@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/motorola/mb886/proprietary/bin/ap_gain.bin:system/bin/ap_gain.bin \
     vendor/motorola/mb886/proprietary/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin \
-    vendor/motorola/mb886/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/motorola/mb886/proprietary/bin/batch:system/bin/batch \
     vendor/motorola/mb886/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/motorola/mb886/proprietary/bin/btnvtool:system/bin/btnvtool \
@@ -81,11 +80,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mb886/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/motorola/mb886/proprietary/lib/libapnjni.so:system/lib/libapnjni.so \
     vendor/motorola/mb886/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/motorola/mb886/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/motorola/mb886/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
     vendor/motorola/mb886/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/motorola/mb886/proprietary/lib/libbt-aptx-4.0.4.so:system/lib/libbt-aptx-4.0.4.so \
-    vendor/motorola/mb886/proprietary/lib/libcaps.so:system/lib/libcaps.so \
     vendor/motorola/mb886/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
     vendor/motorola/mb886/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/motorola/mb886/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
@@ -108,10 +105,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mb886/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/motorola/mb886/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/motorola/mb886/proprietary/lib/libimssettings.so:system/lib/libimssettings.so \
-    vendor/motorola/mb886/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
     vendor/motorola/mb886/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/motorola/mb886/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
-    vendor/motorola/mb886/proprietary/lib/libmm-audio-resampler.so:system/lib/libmm-audio-resampler.so \
     vendor/motorola/mb886/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/motorola/mb886/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/motorola/mb886/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
@@ -128,13 +123,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mb886/proprietary/lib/libnative_renderer.so:system/lib/libnative_renderer.so \
     vendor/motorola/mb886/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/motorola/mb886/proprietary/lib/libNimsWrap.so:system/lib/libNimsWrap.so \
-    vendor/motorola/mb886/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/motorola/mb886/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
     vendor/motorola/mb886/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
-    vendor/motorola/mb886/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/motorola/mb886/proprietary/lib/libopenssl-smime.so:system/lib/libopenssl-smime.so \
-    vendor/motorola/mb886/proprietary/lib/libpanorama_jni.so:system/lib/libpanorama_jni.so \
-    vendor/motorola/mb886/proprietary/lib/libpanorama.so:system/lib/libpanorama.so \
     vendor/motorola/mb886/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/motorola/mb886/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/motorola/mb886/proprietary/lib/libqdp.so:system/lib/libqdp.so \
@@ -200,13 +191,27 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mb886/proprietary/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
     vendor/motorola/mb886/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/motorola/mb886/proprietary/lib/libtcmdcameraservice.so:system/lib/libtcmdcameraservice.so \
+    vendor/motorola/mb886/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
+    vendor/motorola/mb886/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
+    vendor/motorola/mb886/proprietary/lib/libchromatix_imx074_video_hd.so:system/lib/libchromatix_imx074_video_hd.so \
+    vendor/motorola/mb886/proprietary/lib/libchromatix_imx074_zsl.so:system/lib/libchromatix_imx074_zsl.so \
+    vendor/motorola/mb886/proprietary/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
+    vendor/motorola/mb886/proprietary/lib/libchromatix_imx091_preview.so:system/lib/libchromatix_imx091_preview.so \
+    vendor/motorola/mb886/proprietary/lib/libchromatix_imx091_video_hd.so:system/lib/libchromatix_imx091_video_hd.so \
+    vendor/motorola/mb886/proprietary/lib/libchromatix_ov2720_default_video.so:system/lib/libchromatix_ov2720_default_video.so \
+    vendor/motorola/mb886/proprietary/lib/libchromatix_ov2720_preview.so:system/lib/libchromatix_ov2720_preview.so \
     vendor/motorola/mb886/proprietary/lib/libchromatix_ov8820_default_video.so:system/lib/libchromatix_ov8820_default_video.so \
     vendor/motorola/mb886/proprietary/lib/libchromatix_ov8820_hfr_60fps.so:system/lib/libchromatix_ov8820_hfr_60fps.so \
     vendor/motorola/mb886/proprietary/lib/libchromatix_ov8820_preview.so:system/lib/libchromatix_ov8820_preview.so \
     vendor/motorola/mb886/proprietary/lib/libchromatix_ov8820_video_hd.so:system/lib/libchromatix_ov8820_video_hd.so \
     vendor/motorola/mb886/proprietary/lib/libchromatix_ov8820_zsl.so:system/lib/libchromatix_ov8820_zsl.so \
-    vendor/motorola/mb886/proprietary/lib/libchromatix_s5k4e1_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
-    vendor/motorola/mb886/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
+    vendor/motorola/mb886/proprietary/lib/libchromatix_s5k3l1yx_default_video.so:system/lib/libchromatix_s5k3l1yx_default_video.so \
+    vendor/motorola/mb886/proprietary/lib/libchromatix_s5k3l1yx_hfr_120fps.so:system/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
+    vendor/motorola/mb886/proprietary/lib/libchromatix_s5k3l1yx_hfr_60fps.so:system/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
+    vendor/motorola/mb886/proprietary/lib/libchromatix_s5k3l1yx_hfr_90fps.so:system/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
+    vendor/motorola/mb886/proprietary/lib/libchromatix_s5k3l1yx_preview.so:system/lib/libchromatix_s5k3l1yx_preview.so \
+    vendor/motorola/mb886/proprietary/lib/libchromatix_s5k3l1yx_video_hd.so:system/lib/libchromatix_s5k3l1yx_video_hd.so \
+    vendor/motorola/mb886/proprietary/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
     vendor/motorola/mb886/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/motorola/mb886/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/motorola/mb886/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
