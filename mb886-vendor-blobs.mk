@@ -73,6 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mb886/proprietary/etc/thermald.conf:system/etc/thermald.conf \
     vendor/motorola/mb886/proprietary/etc/wifi/hostapd_default.conf:system/etc/wifi/hostapd_default.conf \
     vendor/motorola/mb886/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
+    vendor/motorola/mb886/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/motorola/mb886/proprietary/lib/hw/sensorhub.msm8960.so:system/lib/hw/sensorhub.msm8960.so \
     vendor/motorola/mb886/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/motorola/mb886/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
@@ -90,7 +91,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mb886/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/motorola/mb886/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/motorola/mb886/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
+    vendor/motorola/mb886/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/motorola/mb886/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
+    vendor/motorola/mb886/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/motorola/mb886/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/motorola/mb886/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
     vendor/motorola/mb886/proprietary/lib/libdss.so:system/lib/libdss.so \
